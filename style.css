@@ -245,7 +245,7 @@ header {
 /* SECTION AVIS CLIENTS */
 
 .clients {
-    background-image: linear-gradient(rgba(0,242,96,0.4),rgba(7,117,230,0.6)), url(../Images/Clients/the-paysage.jpg);
+    background-image: linear-gradient(rgba(0,242,96,0.4),rgba(7,117,230,0.6)), url(/images/clients/the-paysage.jpg);
     background-size:cover;
     background-attachment: fixed;
 }
