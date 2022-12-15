@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootsrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/Ressources/CSS/style.css" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
+    <!-- icon -->
+    <script src="https://kit.fontawesome.com/d905ff3956.js" crossorigin="anonymous"></script>
+    <title>Bootstrap</title>
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+
+            <div class="container">
+
+                <a class="navbar-brand" href="#"><img src="/Ressources/Images/Logo.png" class="logo"></a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#monMenu"
+                    aria-controls="monMenu" aria-label="Menu pour mobile">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="monMenu">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-item nav-link" href="#produits">Nos produits</a>
+                        <a class="nav-item nav-link" href="#photos">Photos</a>
+                        <a class="nav-item nav-link" href="#avis">Avis client</a>
+                        <a class="nav-item nav-link" href="#packs">Nos packs</a>
+                        <a class="nav-item nav-link" href="#contact">Contact</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </nav>
+
+        <div class="container">
+            <div class="row home-title">
+                <div class="col">
+                    <h1>L'art du <span>thé</span></h1>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                        Aenean massa.</p>
+                    <a href="#" class="button button-full">Nos produits</a>
+                    <a href="#" class="button button-ghost">Contactez-nous</a>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- SECTION NOS PRODUITS -->
+
+    <section id="produits">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Nos produits</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-7">
+                    <img src="/Ressources/Images/tea.png" alt="tea" class="produits_img">
+                </div>
+
+                <div class="col-md-5">
+                    <div class="produits_plus">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div class="produits_icon">
+                                    <i class="fa-regular fa-circle-check"></i>
+                                </div>
+                            </div>
+                            <div class="col-md-10">
+                                <h3>Produits bio</h3>
+                                <p>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                                    dolor.
+                                    Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                                    ridiculus
+                                    mus.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="produits_plus">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div class="produits_icon">
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="col-md-10">
+                                <h3>Produits bio</h3>
+                                <p>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                                    dolor.
+                                    Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                                    ridiculus
+                                    mus.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="produits_plus">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div class="produits_icon">
+                                    <i class="fa-regular fa-face-smile"></i>
+                                </div>
+                            </div>
+                            <div class="col-md-10">
+                                <h3>Produits bio</h3>
+                                <p>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                                    dolor.
+                                    Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                                    ridiculus
+                                    mus.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECTION FAMILLE DES THES -->
+
+    <section class="famille_thes">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Famille des thés</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="image_details">
+                        <img src="/Ressources/Images/Famille thés/the-noir.png" alt="the_noir" class="produits_img">
+                        <h4>Thé noir</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                            ridiculus
+                            mus.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="image_details">
+                        <img src="/Ressources/Images/Famille thés/the-jaune.png" alt="the_jaune" class="produits_img">
+                        <h4>Thé jaune</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                            ridiculus
+                            mus.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="image_details">
+                        <img src="/Ressources/Images/Famille thés/the-vert.png" alt="the_vert" class="produits_img">
+                        <h4>Thé vert</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                            ridiculus
+                            mus.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- GALERIE PHOTOS -->
+
+    <section id="photos">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Galerie photos</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="galerie_img" style="background-image: url(/Ressources/Images/Galerie/Cascade.jpg)">
+                        <div class="galerie_title">
+                            <h4>Cascade 1</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-8">
+                    <div class="galerie_img" style="background-image: url(/Ressources/Images/Galerie/Cascade\ 2.jpg)">
+                        <div class="galerie_title">
+                            <h4>Cascade 2</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="galerie_img" style="background-image: url(/Ressources/Images/Galerie/Cascade\ 3.jpg)">
+                        <div class="galerie_title">
+                            <h4>Cascade 3</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="galerie_img" style="background-image: url(/Ressources/Images/Galerie/Rivière.jpg)">
+                        <div class="galerie_title">
+                            <h4>Rivière</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="galerie_img" style="background-image: url(/Ressources/Images/Galerie/Lagon.jpg)">
+                        <div class="galerie_title">
+                            <h4>Lagon</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- AVIS CLIENTS -->
+
+    <section class="clients" id="avis">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Ils ont adoré</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="client_profil">
+                        <blockquote>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                            dolor.
+                            <cite><img src="Ressources/Images/Clients/emilie.jpg">Emilie du Chatelet</cite>
+                        </blockquote>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="client_profil">
+                        <blockquote>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                            dolor.
+                            <cite><img src="Ressources/Images/Clients/blaise.jpg">Blaise Pascal</cite>
+                        </blockquote>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="client_profil">
+                        <blockquote>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                            dolor.
+                            <cite><img src="Ressources/Images/Clients/julia.jpg">Julia Robinson</cite>
+                        </blockquote>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- TABLEAU DES PACKS -->
+
+    <section id="packs">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Nos packs</h2>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <!-- PACK 1 -->
+                <div class="col-md-4">
+                    <div class="pack">
+                        <div class="pack_title">
+                            <h3>Basique</h3>
+                            <h4>Gratuit</h4>
+                            <p>30 jours d'essai offerts</p>
+                        </div>
+                        <div class="pack_content">
+                            <ul>
+                                <li><i class="fa-solid fa-circle-check"></i>5 thés</li>
+                                <li><i class="fa-solid fa-circle-xmark"></i>10 thés BIO</li>
+                                <li><i class="fa-solid fa-circle-xmark"></i>1 kit de service</li>
+                                <li><i class="fa-solid fa-circle-xmark"></i>1 boulloire</li>
+                            </ul>
+                        </div>
+                        <div class="pack_signup">
+                            <a href="#" class="button button_pack">Je m'inscris</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PACK 2 -->
+                <div class="col-md-4">
+                    <div class="pack pack_premium">
+                        <div class="pack_title">
+                            <h3>Premium</h3>
+                            <h4>19€<span>/mois</span></h4>
+                            <p>Pour les amoureux du thé</p>
+                            <p class="pack_title_premium">Meilleure vente</p>
+                        </div>
+                        <div class="pack_content">
+                            <ul>
+                                <li><i class="fa-solid fa-circle-check"></i>5 thés</li>
+                                <li><i class="fa-solid fa-circle-check"></i>10 thés BIO</li>
+                                <li><i class="fa-solid fa-circle-check"></i>1 kit de service</li>
+                                <li><i class="fa-solid fa-circle-xmark"></i>1 boulloire</li>
+                            </ul>
+                        </div>
+                        <div class="pack_signup">
+                            <a href="#" class="button button_pack">Je m'inscris</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PACK 3 -->
+                <div class="col-md-4">
+                    <div class="pack">
+                        <div class="pack_title">
+                            <h3>Elite</h3>
+                            <h4>49€<span>/mois</span></h4>
+                            <p>Pour les passionnés</p>
+                        </div>
+                        <div class="pack_content">
+                            <ul>
+                                <li><i class="fa-solid fa-circle-check"></i>5 thés</li>
+                                <li><i class="fa-solid fa-circle-check"></i>10 thés BIO</li>
+                                <li><i class="fa-solid fa-circle-check"></i>1 kit de service</li>
+                                <li><i class="fa-solid fa-circle-check"></i>1 boulloire</li>
+                            </ul>
+                        </div>
+                        <div class="pack_signup">
+                            <a href="#" class="button button_pack">Je m'inscris</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CONTACT -->
+
+    <section id="contact">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form">
+                                <h2>Contactez-nous</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                                    dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
+                                    nascetur ridiculus mus.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="phone">
+                                <p><i class="fa-solid fa-phone"></i> 05.46.46.36.68</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-8">
+                            <div class="adress">
+                                <p><i class="fa-sharp fa-solid fa-location-dot"></i> 42 bis Rue des Merciers, 17000 LA
+                                    ROCHELLE</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form>
+                        <!-- NOM ET EMAIL -->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="contact_form">
+                                    <label>Nom :</label>
+                                    <input type="texte" id="name" />
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="contact_form">
+                                    <label>Email :</label>
+                                    <input type="email" id="email" placeholder="Ajoutez votre email" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- SERVICES CONTACT -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="contact_form">
+                                    <label>Sélectionnez les services :</label>
+                                    <select>
+                                        <option>Service client</option>
+                                        <option>Service comptable</option>
+                                        <option>S.A.V</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- MESSAGE -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="contact_form">
+                                    <label>Votre message</label>
+                                    <textarea id="message" rows="3" class="contact_message"></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- BOUTON -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="contact_form">
+                                    <button class="button button_contact">Envoyer</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2763.491991613728!2d-1.1520750850223611!3d46.16086119470885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4801532a575ffdf5%3A0x1b8f5a1e3775de58!2sPalais%20des%20Th%C3%A9s!5e0!3m2!1sfr!2sfr!4v1670584806915!5m2!1sfr!2sfr"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="copyright">
+            <p>Site de thé - 2022 <a href="#">Mentions légales</a></p>
+        </div>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
